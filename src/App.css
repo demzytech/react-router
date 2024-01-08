@@ -1,0 +1,239 @@
+.Navcolor{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8QGUPxHg0_RriIjAibMZN5cxau6uETkRMaQ&usqp=CAU');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.Navcolor :hover {
+  color: rgb(148, 113, 158);
+}
+.btn{
+  font-size: 43px;
+  border-radius: 200px;
+  color: darkcyan;
+  background-color: blue;
+
+  margin-left: 40%;
+  margin-top: 45%;
+  font-weight: 700;
+  border-color: brown;
+  font-style: italic;
+
+}
+.img2 {
+  height: 80px;
+  border-radius: 200px;
+}
+.nav1{
+  font-size: 25px;
+  font-weight: 500
+}
+.nav2{
+  font-size: 25px;
+  font-weight: 500
+}
+.nav3{
+  font-size: 25px;
+  font-weight: 500
+}
+.nav4{
+  font-size: 25px;
+  font-weight: 500
+}
+#basic-nav-dropdown{
+  font-size: 25px;
+}
+.Dimg3{
+  height: 750px;
+  width: 1500px;
+  margin-left: 80px;
+}
+.Dimg4{
+  height: 750px;
+  width: 1500px;
+  margin-left: 80px;
+}
+.Dimg5{
+  height: 750px;
+  width: 1500px;
+  margin-left: 80px;
+}
+.game1{
+  display: flex;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.Logo1{
+  height: 80px;
+  border-radius: 10px;
+}
+.strike{
+  font-size: 20px;
+  color: purple;
+  font-weight: 700;
+}
+.dcolor{
+  background-color: #1D1B1F;
+  height: 1500px;
+}
+.Btn3{
+  width: 300px;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 20px;
+  color: white;
+  background-color: blueviolet;
+  font-weight: 600;
+  
+}
+.Btn4{
+  width: 300px;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border-color: blueviolet;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.txt3{
+  display: flex;
+
+}
+.txt2{
+  margin-left: 40px;
+}
+#icon1{
+  margin-right: 10px;
+  color: black;
+  background-color: white;
+}
+#icon2{
+  margin-right: 10px;
+  color: white;
+}
+.story{
+  display: flex;
+  color: white;
+}
+.img7{
+  height: 600px;
+  width: 1200px;
+  margin-left: 50px;
+  margin-top: 80px;
+}
+.txt9{
+ margin-left:30px ;
+ margin-top: 80px;
+}
+.img0{
+  height: 80px;
+  margin-left: 800px;
+}
+.divy{
+  display: flex;
+}
+.txt6{
+  margin-left: 20px;
+}
+.tt{
+  font-size: 70px;
+  font-weight: 300;
+}
+#card5{
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 30px;
+ 
+}
+#icon12{
+  font-size: 60px;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  
+}
+#cardy{
+  background-color: #272340;
+  border-radius: 5%;
+  padding: 2px;
+}
+
+#cardy:hover{
+  background-color: orange;
+}
+.txt12{
+  font-size: 60px;
+  text-align: center;
+  color: white;
+}
+.txt123{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.txt24{
+  color: white;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+.wordy{
+  color: purple;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+.line{
+  color: red;
+  width: 900px;
+  margin-left: 400px;
+  border: solid 1px;
+}
+.line1{
+  color: purple;
+  width: 450px;
+  margin-left: 600px;
+  border: solid 1px;
+}
+.line9{
+  background-color: blueviolet;
+
+  width: 290px;
+  margin-left: 700px;
+  border: solid 3px;
+}
+.line2{
+  color: lightblue;
+  width: 225px;
+  margin-left: 720px;
+  border: solid 1px;
+}
+.txt45{
+  text-align: center;
+  color: black;
+  font-weight: 800;
+};
+.section8{
+  background-image: url('https://free4kwallpapers.com/uploads/originals/2020/11/27/cool-gaming-wallpaper.jpg');
+}
+.txtti{
+  text-align: center;
+}
+.img99{
+  height: 400px;
+}
+.tit{
+  text-align: center;
+}
+.re{
+  background-color: rgb(194, 138, 194);
+}
+.cardo{
+  display: flex;
+  padding: 5px;
+}
