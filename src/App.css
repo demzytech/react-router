@@ -1,13 +1,34 @@
 .Navcolor{
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8QGUPxHg0_RriIjAibMZN5cxau6uETkRMaQ&usqp=CAU');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: black;
   color: white;
   
 }
+.nav1{
+  color: white;
+}
+.nav2{
+  color: white;
+}
+.nav3{
+  color: white;
+}
+.nav4{
+  color: white;
+}
+
+#basic-nav-dropdown{
+  color: white;
+}
 
 .Navcolor :hover {
-  color: rgb(148, 113, 158);
+  color: blueviolet;
+}
+#basic-nav-dropdown :hover{
+  color: blueviolet;
+}
+.demi{
+  font-size: 20px;
+  font-weight: 500;
 }
 .btn{
   font-size: 43px;
@@ -119,19 +140,45 @@
   display: flex;
   color: white;
 }
-.img7{
+.slider{
   height: 600px;
-  width: 1200px;
+  width: 1150px;
+  background: url("https://www.rappler.com/tachyon/2021/04/apex-mobile-art-featured-image.jpg");
   margin-left: 50px;
   margin-top: 80px;
+  animation: slide 20s infinite;
+}
+@keyframes slide{ 
+  25%{
+    background: url("https://www.rappler.com/tachyon/2021/04/apex-mobile-art-featured-image.jpg");
+    
+  }
+  50%{
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijVIsjRgxicnRtbwElBgDkZQ9Hkqf8DPdp2-evTigz5Is2OAgeljckykrdBl22ayCV25GTdmCxOCwIEK6gPV13Sg_4cBbAZTCqjZCYwv19fTq4bc9Qhh0obwfwEt1Z26Z7g9NTsjCjYcxiHdwoJK0CER5xOF4zMjPa3xK8MTce-9pMe7vdlwl9YlHJVw6B/s1920/vlcsnap-2023-09-09-20h11m32s024.png");
+    width: 1150px;
+    height: 600px;
+  }
+
+  75%{
+    background: url("https://s.yimg.com/ny/api/res/1.2/w87GNDV3EXvv_61H1EfD5g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://s.yimg.com/os/creatr-uploaded-images/2023-07/a539e200-24a2-11ee-baff-ae50913fdede");
+    width: 1150px;
+    height: 600px;
+  }
+  100%{
+    background: url("https://pbs.twimg.com/media/FuLxeW8XgAAFLwg?format=jpg&name=4096x4096");
+    width: 1150px;
+    height: 600px;
+  }
+
 }
 .txt9{
  margin-left:30px ;
  margin-top: 80px;
 }
 .img0{
-  height: 80px;
+  height: 70px;
   margin-left: 800px;
+
 }
 .divy{
   display: flex;
@@ -157,13 +204,18 @@
   
 }
 #cardy{
-  background-color: #272340;
+  background-color: #000000;
   border-radius: 5%;
   padding: 2px;
+  border-color: blueviolet ;
+  border-radius:  50%;
+  
 }
 
 #cardy:hover{
-  background-color: orange;
+  background-color: blueviolet;
+  transition: .4s;
+  border-radius: 15%;
 }
 .txt12{
   font-size: 60px;
@@ -183,7 +235,7 @@
   font-weight: 700;
 }
 .wordy{
-  color: purple;
+  color: blueviolet;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 50px;
@@ -196,13 +248,13 @@
   border: solid 1px;
 }
 .line1{
-  color: purple;
+  color: blueviolet;
   width: 450px;
   margin-left: 600px;
   border: solid 1px;
 }
 .line9{
-  color: blue;
+  color: blueviolet;
 
   width: 290px;
   margin-left: 700px;
@@ -232,7 +284,7 @@
 }
 .tit{
   text-align: center;
-  color: #3A5B7A;
+  color: #eff4f8;
 }
 .re{
   background-color: #1B1C20
@@ -250,7 +302,7 @@
   background-image: url("https://wallpapercave.com/wp/wp7346844.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1200px;
+  height: 1100px;
 }
 .img99{
   height: 300px;
@@ -299,3 +351,185 @@
     font-weight: bolder;
     font-family: arial;
   }
+.fifs{
+  font-size: 200px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.rating{
+  font-size: 60px;
+  color: #3A5B7A;
+}
+.we{
+  font-size: 30px;
+  color: #F74945;
+  font-weight: 700;
+}
+.btnx{
+  width: 500px;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 20px;
+  color: white;
+  background-color: blueviolet;
+  font-weight: 600;
+  
+}
+.loginform{
+  margin-left: 100px;
+  
+}
+.labelform{
+  width: 500px;
+  height: 50px;
+  background-color: rgb(243, 238, 243);
+  border-color: black;
+}
+.labelform4{
+  width: 1000px;
+  height: 50px;
+  background-color: rgb(243, 238, 243);
+  border-color: black;
+}
+.labelform2{
+  width: 400px;
+  height: 50px;
+  background-color: rgb(243, 238, 243);
+  border-color: black;
+}
+
+.labelform3{
+  height: 50px;
+  width: 100px;
+  background-color: rgb(243, 238, 243);
+  color: blueviolet;
+  font-weight: 900;
+  border-radius: 2px;
+}
+.labelfor{
+  font-size: 20px;
+}
+.wording{
+  margin-left: 250px;
+  margin-top: 20px;
+}
+.btnu{
+  height: 50px;
+  width: 350px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.card65{
+  width: 100px;
+  height: 100px;
+  border-radius: black;
+}
+.vt{
+  margin-left: 500px;
+  margin-bottom: 50px;
+  
+}
+.vfr{
+  margin-left: 500px;
+  margin-bottom: 50px;
+  color: blueviolet;
+  font-size: 70px;
+
+  
+}
+.demn{
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 20px;
+  color: white;
+  background-color: green;
+  font-weight: 600;
+  margin-left: 700px;
+}
+.App {
+  font-family: 'Arial, sans-serif';
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.light {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.dark {
+  background-color: #333333;
+  color: #ffffff;
+  height: 700px;
+}
+.themebtn {
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 1000px;
+  transition: background-color 0.3s, color 0.3s ;
+  margin-top: 10px;
+  margin-left: 1500px;
+}
+
+
+
+.themebtn.light {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.themebtn.dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+.card1{
+  margin-top: 100px;
+  margin-left: 400px;
+  border-radius: 10px;
+  background-image: url("https://th.bing.com/th/id/R.64df02ff9aa50dd98f9ae3dc74600170?rik=zmlKJwmJQ5s2wA&pid=ImgRaw&r=0");
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.contactbg{
+  background-image: url('https://us.123rf.com/450wm/pavelmuravev/pavelmuravev2204/pavelmuravev220400096/184616241-website-and-internet-contact-us-page-concept-with-phone-chat-email-icons-symbol-telephone-mail.jpg');
+  image-resolution: 900dpi;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  image-rendering: smooth;
+  image-rendering: auto;
+  image-rendering: high-quality;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 689px
+}
+
+.imggg{
+  height: 400px;
+  margin-left: 100px;
+}
+.Contactpage{
+  color: blueviolet
+
+}
+.imgh{
+  height: 150px;
+  border-radius: 50%;
+  
+  
+}
+.wordy22{
+  color: blueviolet;
+  font-size: 150px;
+  margin-left: 400px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footerbg{
+  background-image: url("https://wallpapercave.com/wp/wp7346844.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

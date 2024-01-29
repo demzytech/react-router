@@ -15,16 +15,16 @@ function Home() {
 
   return (
     <>
-       <div style={{ 
+       {/* <div style={{ 
       backgroundImage: `url("https://bc-gb.com/wp-content/uploads/2013/10/gaming-wallpapers-games-57.jpg")`, 
-      height: '1600px',
+      height: '16px',
       backgroundRepeat:'no-repeat',
       backgroundSize:'cover',
       backgroundPosition:'center',
     }}>
         <div>
           {shows
-          ? (<div>
+          ? (<div> */}
             <main>
               <section style={{ 
       backgroundImage: `url("https://i.pinimg.com/originals/3b/8a/d2/3b8ad2c7b1be2caf24321c852103598a.jpg")`, 
@@ -35,7 +35,9 @@ function Home() {
     }} >
                 <div className="story">
                   <div className="txt9">
+
                   <h1 className="tt">Game FC</h1>
+                  
                   <br />
                   <h3> EA</h3>
                   <br />
@@ -65,7 +67,10 @@ function Home() {
                     
                   </div>
                   <div>
-                  <img className="img7" src="https://www.rappler.com/tachyon/2021/04/apex-mobile-art-featured-image.jpg" alt="" />
+                  <div className="slider">
+
+                  </div>
+                  
                   <br />
                   <br />
                   <div className="divy">
@@ -169,26 +174,60 @@ function Home() {
                 </div>
                 
               </section>
-              <section>
-                <div>
-                  <Poll/>
-                </div>
-              </section>
+              
             </main>
+            <footer className="footerbg">
+              <div style={{display:"flex"}}>
+                <h1 className="wordy22">GAMEFC</h1>
+              <img src="https://i.pinimg.com/originals/72/3d/0a/723d0af616b1fe7d5c7e56a3532be3cd.png" alt="" className="imgh"/>
+                
+              
+              </div>
+              <div>
+                <div>
+                <div>
+                  <h4 style={{fontSize: "20px", fontWeight: '800', textAlign: "center", color: "#605149"}}>Thank you for being part of our journey. Your support and presence mean the world to us. We strive to provide valuable content and services, and we look forward to continuing this adventure with you. Together, let's create amazing moments and memories. Cheers to many more shared experiences!</h4>
+              </div>
+              <div style={{fontSize: "30px", display: 'flex', marginLeft: '700px' }}>
+              <a href="https://www.facebook.com/profile.php?id=100074803113250"><i class="fa-brands fa-facebook" style={{marginRight: '15px'}}></i></a>
+              <br />
+            
+              <a href="https://x.com/DemzyAmor1/status/1744010474113413461?s=20"><i class="fa-brands fa-twitter"  style={{marginRight: '15px'}}></i></a>
+              <br />
+              <a href="https://www.instagram.com/demzyamor?igsh=YzljYTk1ODg3Zg== "><i class="fa-brands fa-instagram" ></i></a>
+              <br />
+              <a href="https://wa.me/+2349027301750"><i class="fa-brands fa-whatsapp" style={{marginLeft: '15px'}}></i></a>
+              <br />
+              <a href="https://pin.it/2RtVTBxZp"><i class="fa-brands fa-pinterest-p" style={{marginLeft: '15px'}}></i></a>
+              </div>
+            
+              
+              <div>
+              
+              <p style={{fontSize: "20px", fontWeight: '800', textAlign: "center", color: "#605149"}}>&copy; 2024 Your Website. All Rights Reserved.</p>
+              <p style={{fontSize: "20px", fontWeight: '800', textAlign: "center", color: "#605149"}}>Contact us: demiladeamodu@gmail.com</p>
+              </div>
+                </div>
+                
+                
+        
+              </div>
+
+            </footer>
 
            
-          </div>)
-          :(
+          {/* </div>)
+          :( */}
              <div>
                 
               </div> 
-          )
-        }        
-         <div>
+          {/* )
+        }         */}
+         {/* <div>
             <button onClick={() => setShows(!shows)} className="btn">G@ME ON..</button>
          </div>
         </div>
-        </div>
+        </div> */}
     </>
   )
 }

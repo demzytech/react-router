@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import SearchBar from './searchbar';
+import Login from './pages/Login';
 
 
 
@@ -16,19 +17,16 @@ function Navigation() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/" className='nav1 navwhite'>Home</Nav.Link>
-            <Nav.Link href="#link" className='nav2'>Topgames</Nav.Link>
-            <Nav.Link href="#home" className='nav3'>Olderversions</Nav.Link>
-            <Nav.Link href="./Newerversion" className='nav4'>Newerversions</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1" className='demi'>Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
+            <Nav.Link href="/post" className='nav2'>Post</Nav.Link>
+            <Nav.Link href="./blog" className='nav3'>Blog</Nav.Link>
+            <Nav.Link href="./contact" className='nav4'>Contact</Nav.Link>
+            <NavDropdown title="Register" id="basic-nav-dropdown" >
+              <NavDropdown.Item href="./signup" className='demi'>Signup<i class="fa-solid fa-user-plus"></i></NavDropdown.Item>
+              <NavDropdown.Item href="./login" className='demi' >
+                Login <i class="fa-solid fa-right-to-bracket"></i>
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+              
+              
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
