@@ -2,7 +2,6 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Password from '../Password';
 import { Link } from 'react-router-dom';
-import Signup from './Signup';
 
 function Login() {
   

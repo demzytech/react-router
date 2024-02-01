@@ -1,11 +1,9 @@
 
 import Cards from "../Card";
 import Cardy from "../Cardy";
-import Carous from "../Carousel";
+
 import Dark from "../Carousel";
-import Carousel from "../Carousel"
 import { useState } from "react"
-import Poll from "./poll";
 
 function Home() {
     const [person, setPerson] = useState({
