@@ -19,7 +19,7 @@ function Dark() {
           <p>
             <s className='strike'>BORING</s><b> Action, Tactical shooter</b> 
           </p>
-          <button className="Btn3">Install <i class="fa-solid fa-download"></i></button>
+          <button className="Btn3">Install <i className="fa-solid fa-download"></i></button>
             </div>
           </div>
         </Carousel.Caption>
@@ -40,7 +40,7 @@ function Dark() {
           <p>
             <s className='strike'>BORING</s><b> Action, Tactical shooter</b> 
           </p>
-          <button className="Btn3">Install <i class="fa-solid fa-download"></i></button>
+          <button className="Btn3">Install <i className="fa-solid fa-download"></i></button>
             </div>
           </div>
         </Carousel.Caption>
@@ -61,7 +61,7 @@ function Dark() {
           <p>
             <s className='strike'>BORING</s><b> Action, Tactical shooter</b> 
           </p>
-          <button className="Btn3">Install <i class="fa-solid fa-download"></i></button>
+          <button className="Btn3">Install <i className="fa-solid fa-download"></i></button>
             </div>
           </div>
         </Carousel.Caption>

@@ -17,13 +17,13 @@ function Navigation() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/" className='nav1 navwhite'>Home</Nav.Link>
-            <Nav.Link href="/post" className='nav2'>Post</Nav.Link>
+            <Nav.Link href="./post" className='nav2'>Post</Nav.Link>
             <Nav.Link href="./blog" className='nav3'>Blog</Nav.Link>
             <Nav.Link href="./contact" className='nav4'>Contact</Nav.Link>
             <NavDropdown title="Register" id="basic-nav-dropdown" >
-              <NavDropdown.Item href="./signup" className='demi'>Signup<i class="fa-solid fa-user-plus"></i></NavDropdown.Item>
+              <NavDropdown.Item href="./signup" className='demi'>Signup<i className="fa-solid fa-user-plus"></i></NavDropdown.Item>
               <NavDropdown.Item href="./login" className='demi' >
-                Login <i class="fa-solid fa-right-to-bracket"></i>
+                Login <i className="fa-solid fa-right-to-bracket"></i>
               </NavDropdown.Item>
               
               

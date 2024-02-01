@@ -53,13 +53,13 @@ function Home() {
                   <h5> Released 02/04/2019</h5>
                   <div className="txt3">
                     <div>
-                      <h5><i class="fa-solid fa-gamepad" id="icon1"></i>In-game Purchase </h5>
+                      <h5><i className="fa-solid fa-gamepad" id="icon1"></i>In-game Purchase </h5>
                       <h5>Optional</h5>
                     </div>
                     <div>
                       <div className="txt2">
-                        <h5> <i class="fa-solid fa-globe" id="icon2"></i>Online play required</h5>
-                        <h5 ><i class="fa-solid fa-user-group" id="icon2"></i>60 online people</h5>
+                        <h5> <i className="fa-solid fa-globe" id="icon2"></i>Online play required</h5>
+                        <h5 ><i className="fa-solid fa-user-group" id="icon2"></i>60 online people</h5>
                       </div>
                    </div>
                   </div>
@@ -189,16 +189,16 @@ function Home() {
                   <h4 style={{fontSize: "20px", fontWeight: '800', textAlign: "center", color: "#605149"}}>Thank you for being part of our journey. Your support and presence mean the world to us. We strive to provide valuable content and services, and we look forward to continuing this adventure with you. Together, let's create amazing moments and memories. Cheers to many more shared experiences!</h4>
               </div>
               <div style={{fontSize: "30px", display: 'flex', marginLeft: '700px' }}>
-              <a href="https://www.facebook.com/profile.php?id=100074803113250"><i class="fa-brands fa-facebook" style={{marginRight: '15px'}}></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100074803113250"><i className="fa-brands fa-facebook" style={{marginRight: '15px'}}></i></a>
               <br />
             
-              <a href="https://x.com/DemzyAmor1/status/1744010474113413461?s=20"><i class="fa-brands fa-twitter"  style={{marginRight: '15px'}}></i></a>
+              <a href="https://x.com/DemzyAmor1/status/1744010474113413461?s=20"><i className="fa-brands fa-twitter"  style={{marginRight: '15px'}}></i></a>
               <br />
-              <a href="https://www.instagram.com/demzyamor?igsh=YzljYTk1ODg3Zg== "><i class="fa-brands fa-instagram" ></i></a>
+              <a href="https://www.instagram.com/demzyamor?igsh=YzljYTk1ODg3Zg== "><i className="fa-brands fa-instagram" ></i></a>
               <br />
-              <a href="https://wa.me/+2349027301750"><i class="fa-brands fa-whatsapp" style={{marginLeft: '15px'}}></i></a>
+              <a href="https://wa.me/+2349027301750"><i className="fa-brands fa-whatsapp" style={{marginLeft: '15px'}}></i></a>
               <br />
-              <a href="https://pin.it/2RtVTBxZp"><i class="fa-brands fa-pinterest-p" style={{marginLeft: '15px'}}></i></a>
+              <a href="https://pin.it/2RtVTBxZp"><i className="fa-brands fa-pinterest-p" style={{marginLeft: '15px'}}></i></a>
               </div>
             
               

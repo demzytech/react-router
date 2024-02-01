@@ -533,3 +533,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.error{
+  color: red;
+  margin-left: 300px;
+}

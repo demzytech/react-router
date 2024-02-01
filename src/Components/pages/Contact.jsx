@@ -1,8 +1,19 @@
-import React from 'react'
-import Lightmode from '../Lightmode'
-import { Placeholder } from 'react-bootstrap';
+import React from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+  const sendEmail = (e) => {
+   e.preventDefault();
+
+    emailjs.sendForm('service_q4xkqif', 'template_9esott9', e.target, 'GO_ncj_BnwQGpdyHM')
+        .then((result) => {
+          console.log(result.text);
+        }, (error) => {
+          console.log(error.text);
+        })
+        e.target.reset()
+        
+  };
   
   return (
   <div className='contactbg'>
@@ -11,15 +22,15 @@ const Contact = () => {
       <div style={{display: 'flex'}}>
         <div>
           <h1 className='Contactpage'>Contact Us</h1>
-          <form>
+          <form onSubmit={sendEmail}>
           
-            <input type="text" name="name"  placeholder='Enter name' className='labelform8b'   style={{height: '50px', width: '400px', backgroundColor: 'white', borderRadius:'20px'}}/>
+            <input type="text"   placeholder='Enter name'name="name" className='labelform8b'   style={{height: '50px', width: '400px', backgroundColor: 'white', borderRadius:'20px', borderColor: "black"}}/>
             <br />
             <br />
-            <input type="text" name="email"  placeholder='Enter e-mail' className='labelform8b'  style={{height: '50px', width: '400px', backgroundColor: 'white', borderRadius:'20px'}} />
+            <input type="text"   placeholder='Enter e-mail' name="Email" className='labelform8b'  style={{height: '50px', width: '400px', backgroundColor: 'white', borderRadius:'20px', borderColor: "black"}} />
             <br />
             <br />
-            <textarea   name="message" rows={"4"} cols={"50"} placeholder= 'Message' style={{ backgroundColor: 'white', borderRadius:'30px', paddingLeft: "10px"}} ></textarea>
+            <textarea    rows={"4"} cols={"50"} placeholder= 'Message' name="message" style={{ backgroundColor: 'white', borderRadius:'30px', paddingLeft: "10px", borderColor: "black"}} ></textarea>
             <br />
             <br />
             <button className='Btn3'> Send Message</button>
