@@ -13,16 +13,7 @@ function Home() {
 
   return (
     <>
-       {/* <div style={{ 
-      backgroundImage: `url("https://bc-gb.com/wp-content/uploads/2013/10/gaming-wallpapers-games-57.jpg")`, 
-      height: '16px',
-      backgroundRepeat:'no-repeat',
-      backgroundSize:'cover',
-      backgroundPosition:'center',
-    }}>
-        <div>
-          {shows
-          ? (<div> */}
+       
             <main>
               <section style={{ 
       backgroundImage: `url("https://i.pinimg.com/originals/3b/8a/d2/3b8ad2c7b1be2caf24321c852103598a.jpg")`, 
@@ -214,18 +205,11 @@ function Home() {
             </footer>
 
            
-          {/* </div>)
-          :( */}
+          
              <div>
                 
               </div> 
-          {/* )
-        }         */}
-         {/* <div>
-            <button onClick={() => setShows(!shows)} className="btn">G@ME ON..</button>
-         </div>
-        </div>
-        </div> */}
+          
     </>
   )
 }
