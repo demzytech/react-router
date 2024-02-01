@@ -1,3 +1,33 @@
 {
-    "buildCommand": "next build"
+    "rewrites": [
+      {
+        "source": "/post(.*)",
+        "destination": "/"
+      }
+    ]
   }
+{
+    "rewrites": [
+      {
+        "source": "/blog(.*)",
+        "destination": "/"
+      }
+    ]
+  }
+{
+    "rewrites": [
+      {
+        "source": "/contact(.*)",
+        "destination": "/"
+      }
+    ]
+  }
+{
+    "rewrites": [
+      {
+        "source": "/signup(.*)",
+        "destination": "/"
+      }
+    ]
+  }
+  
