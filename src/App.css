@@ -3,15 +3,13 @@
   color: white;
   
 }
-
-
 #basic-nav-dropdown{
   color: white;
   font-weight: 700;
 }
 
-#basic-nav-dropdown :hover{
-  color: blueviolet;
+#basic-nav-dropdown:hover{
+   color: blueviolet;
 }
 .demi{
   font-size: 20px;
