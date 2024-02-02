@@ -7,11 +7,9 @@
 
 #basic-nav-dropdown{
   color: white;
+  font-weight: 700;
 }
 
-.Navcolor :hover {
-  color: blueviolet;
-}
 #basic-nav-dropdown :hover{
   color: blueviolet;
 }
