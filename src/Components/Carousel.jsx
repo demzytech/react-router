@@ -27,13 +27,13 @@ function Dark() {
       <Carousel.Item>
         <img
           className="Dimg4"
-          src="https://overgear.com/guides/wp-content/uploads/2023/05/revenant-apex-legends.jpg"
+          src="https://i.redd.it/5p16231zzx651.png"
           alt="Second slide"
         />
         <Carousel.Caption>
         <div className='game1'>
             <div>
-              <img className='Logo1' src="https://i.redd.it/5p16231zzx651.png" alt="" />
+              <img className='Logo1' src="https://assets-prd.ignimgs.com/2023/02/16/apexrevelry-1676588335122.jpg" alt="" />
             </div>
             <div>
             <h5 className='we'>Apex Legend - The next evolution of Hero Shooter</h5>
