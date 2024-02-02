@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -14,13 +15,13 @@ function Navigation() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/" className='nav1 navwhite'>Home</Nav.Link>
-            <Nav.Link href="./post" className='nav2'>Post</Nav.Link>
-            <Nav.Link href="./blog" className='nav3'>Blog</Nav.Link>
-            <Nav.Link href="./contact" className='nav4'>Contact</Nav.Link>
+            <Nav.Link as={Link} to="/" className='nav1 navwhite'>Home</Nav.Link>
+            <Nav.Link as={Link} to="./post" className='nav2'>Post</Nav.Link>
+            <Nav.Link as={Link} to="./blog" className='nav3'>Blog</Nav.Link>
+            <Nav.Link as={Link} to="./contact" className='nav4'>Contact</Nav.Link>
             <NavDropdown title="Register" id="basic-nav-dropdown" >
-              <NavDropdown.Item href="./signup" className='demi'>Signup<i className="fa-solid fa-user-plus"></i></NavDropdown.Item>
-              <NavDropdown.Item href="./login" className='demi' >
+              <NavDropdown.Item as={Link} to="./signup" className='demi'>Signup<i className="fa-solid fa-user-plus"></i></NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="./login" className='demi' >
                 Login <i className="fa-solid fa-right-to-bracket"></i>
               </NavDropdown.Item>
               

@@ -58,7 +58,7 @@ function BasicExample() {
      {Object.keys(formErrors).length === 0 && isSubmit ? (
        <div className='ui message success'>signed in successful</div> 
      ) : (
-       <pre>{JSON.stringify(formValues, undefined, 2)}</pre>
+       <pre>{JSON.stringify( undefined, 2)}</pre>
      )}
       
       <Form className='loginform' onSubmit={handleSubmit}>
