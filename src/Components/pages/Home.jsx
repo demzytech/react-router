@@ -174,7 +174,7 @@ function Home() {
                 <div>
                   <h4 style={{fontSize: "20px", fontWeight: '800', textAlign: "center", color: "#605149"}}>Thank you for being part of our journey. Your support and presence mean the world to us. We strive to provide valuable content and services, and we look forward to continuing this adventure with you. Together, let's create amazing moments and memories. Cheers to many more shared experiences!</h4>
               </div>
-              <div style={{fontSize: "30px", display: 'flex', marginLeft: '700px' }}>
+              <div style={{fontSize: "30px", display: 'flex', marginLeft: '600px' }}>
               <a href="https://www.facebook.com/profile.php?id=100074803113250"><i className="fa-brands fa-facebook" style={{marginRight: '15px'}}></i></a>
               <br />
             
