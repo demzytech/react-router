@@ -10,8 +10,8 @@ function Home() {
   return (
     <>
        
-            <main>
-              <section style={{ 
+ <main>
+   <section style={{ 
       backgroundImage: `url("https://i.pinimg.com/originals/3b/8a/d2/3b8ad2c7b1be2caf24321c852103598a.jpg")`, 
       height: '800px',
       backgroundRepeat:'no-repeat',
@@ -103,59 +103,7 @@ function Home() {
                 <h5 className="txt45">Welcome to GAMEFC, where gaming enthusiasts unite! Dive into a world of reviews, news, and community vibes. Level up your gaming experience with us!</h5>
                   </div>
                   <br />
-                  <div className="cardo">
-                    <div className="cardo1">
-                    <Cardy
-                      imgUrl={"https://media.istockphoto.com/id/1305224036/photo/latin-man-gaming-on-his-pc-during-a-live-stream.jpg?s=612x612&w=0&k=20&c=m44oOlCqEgFs5MyLzz5zSr21kNmFbteOg0c6-ETNWSI="}
-                      title={"Gaming Is Life"}
-                   />
-                    </div>
-                    <div className="cardo1">
-                    <Cardy
-                      imgUrl={"https://www.red-dot.org/fileadmin/_processed_/e/f/csm_16-01418-2020-9_430ae194b0.jpg"}
-                      title={"Gaming Is Peace"}
-                    />
-                    </div>
-                    <div className="cardo1">
-                    <Cardy
-                      imgUrl={"https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z2FtZXJ8ZW58MHx8MHx8fDA%3D"}
-                      title={"Gaming Is Fun"}
-                    />
-                    </div>
-                    <div className="cardo1">
-                    <Cardy 
-                      imgUrl={"https://www.forbesindia.com/media/images/2022/Jun/img_186701_gamers_bg.jpg"}
-                      title={"Gaming Is Inspiring"}
-                    />
-                    </div>
-                  </div>
-                  <br />
-                  <div className="cardo">
-                    <div className="cardo1">
-                    <Cardy
-                      imgUrl={"https://i.gadgets360cdn.com/large/gaming_image_hp_1643981884462.jpg"}
-                      title={"Gaming Is Life"}
-                   />
-                    </div>
-                    <div className="cardo1">
-                    <Cardy
-                      imgUrl={"https://exchange4media.gumlet.io/news-photo/118954-117236-109453-gaming.jpg?w=400&dpr=2.6"}
-                      title={"Gaming Is Competitive"}
-                    />
-                    </div>
-                    <div className="cardo1">
-                    <Cardy
-                      imgUrl={"https://saudigamer.com/tachyon/sites/6/2014/08/gamerspic.jpg"}
-                      title={"Gaming Is Social"}
-                    />
-                    </div>
-                    <div className="cardo1">
-                    <Cardy 
-                      imgUrl={"https://www.smartremodelingllc.com/uploads/images/40/1406/1648030471-108508.jpg"}
-                      title={"Gaming Is Elite"}
-                    />
-                    </div>
-                  </div>
+                  
                   
                 </div>
                 
