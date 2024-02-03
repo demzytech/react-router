@@ -112,7 +112,7 @@ function Home() {
                     </div>
                     <div className="cardo1">
                     <Cardy
-                      imgUrl={"https://www.red-dot.org/fileadmin/_processed_/e/f/csm_16-01418-2020-9_430ae194b0.jpg"}
+                      imgUrl={"https://img.freepik.com/free-photo/man-neon-suit-sits-chair-with-neon-sign-that-says-word-it_188544-27011.jpg"}
                       title={"Gaming Is Peace"}
                     />
                     </div>
