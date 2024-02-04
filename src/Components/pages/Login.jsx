@@ -11,7 +11,7 @@ function Login() {
         <h1>GAME FC</h1>
       <Form.Group>
         <Form.Label className='labelfor'>Email address</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" className='form-control'/>
+        <Form.Control type="email" placeholder="Enter email"  id='form-control'/>
         <Form.Text className="text-muted">
           We'll never share your email with anyone else.
         </Form.Text>
