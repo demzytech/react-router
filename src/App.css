@@ -244,7 +244,7 @@
   color: blueviolet;
 
   width: 290px;
-  margin-left: 700px;
+  margin-left: 550px;
   border: solid 3px;
 }
 .line2{
@@ -350,6 +350,7 @@
   font-size: 30px;
   color: #F74945;
   font-weight: 700;
+  
 }
 .btnx{
   width: 500px;
@@ -531,5 +532,5 @@
   margin-right: 250px;
 }
 .need2{
-  margin-right: 230px;
+  margin-right: 250px;
 }
