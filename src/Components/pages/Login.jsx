@@ -7,7 +7,7 @@ function Login() {
   
   return (
     <div style={{backgroundColor: 'gray', height: '700px'}}>
-      <Form className='loginform'>
+      <Form id='loginform'>
         <h1>GAME FC</h1>
       <Form.Group>
         <Form.Label className='labelfor'>Email address</Form.Label>
