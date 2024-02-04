@@ -9,7 +9,7 @@ function Login() {
     <div style={{backgroundColor: 'gray', height: '700px'}}>
       <Form className='loginform'>
         <h1>GAME FC</h1>
-      <Form.Group className="mb-3" controlId="formBasicEmail">
+      <Form.Group>
         <Form.Label className='labelfor'>Email address</Form.Label>
         <Form.Control type="email" placeholder="Enter email" className='form-control'/>
         <Form.Text className="text-muted">
