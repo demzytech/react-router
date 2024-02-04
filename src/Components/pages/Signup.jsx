@@ -71,13 +71,13 @@ function BasicExample() {
             
      </div>
       <div>
-      <Form.Group className="mb-3" controlId="formBasicFirstname">
+      <Form.Group>
         <Form.Label className='labelfor' style={{marginLeft: '300px'}}>First Name</Form.Label>
         <Form.Control type="Firstname" placeholder="Enter Firstname" name='Firstname' value={formValues.Firstname} id='labelform' style={{marginLeft: '300px'}} onChange={handleChange} />
         
       </Form.Group>
       <p className='error'>{formErrors.Firstname}</p>
-      <Form.Group className="mb-3" controlId="formBasicSurname">
+      <Form.Group>
         <Form.Label className='labelfor'style={{marginLeft: '300px'}}>Surname</Form.Label>
         <Form.Control type="Surname" placeholder="Enter Surname" name='Surname' value={formValues.Surname} id='labelform' style={{marginLeft: '300px'}} onChange={handleChange}/>
       </Form.Group>
