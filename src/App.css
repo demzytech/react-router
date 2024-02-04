@@ -384,8 +384,8 @@
   width: 100px;
   background-color: rgb(243, 238, 243);
   color: blueviolet;
-  font-weight: 900;
   border-radius: 2px;
+  border-color: #000000;
 }
 .labelfor{
   font-size: 20px;
@@ -533,7 +533,6 @@
   height: 50px;
   background-color: rgb(243, 238, 243);
   color: blueviolet;
-  font-weight: 900;
   border-radius: 2px;
   border-color: #000000;
 }
