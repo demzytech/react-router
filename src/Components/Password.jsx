@@ -22,7 +22,7 @@ const Password = () => {
         onChange={(e) => setPassword(e.target.value)}
       />
       
-      <button type="button" onClick={handleToggleVisibility} className='labelform3'>
+      <button type="button" onClick={handleToggleVisibility} id='labelform3'>
         {passwordVisible ? 'HIDE' : 'SHOW'} 
       </button>
     </div>
