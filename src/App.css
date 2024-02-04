@@ -373,11 +373,10 @@
   border-color: black;
 }
 #labelform2{
-  width: 40%;
+  width: 400px;
   height: 50px;
   background-color: rgb(243, 238, 243);
-  border-radius: 2px;
-  border-color: #000000;
+  border-color: black;
 }
 
 #labelform3{
@@ -388,6 +387,7 @@
   font-weight: 900;
   border-radius: 2px;
   border-color: #000000;
+  border: solid 2px;
 }
 .labelfor{
   font-size: 20px;
@@ -536,5 +536,6 @@
   background-color: rgb(243, 238, 243);
   border-radius: 2px;
   border-color: #000000;
+  border: solid 2px;
 }
 
