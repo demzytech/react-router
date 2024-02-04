@@ -11,9 +11,6 @@ function Cardy({imgUrl,  title}) {
             {title}
         </Card.Title>
       </Card.Body>
-      <div>
-        <h1>demzyAmor</h1>
-      </div>
     </Card>
     </div>
   );
