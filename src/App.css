@@ -373,10 +373,11 @@
   border-color: black;
 }
 #labelform2{
-  width: 400px;
+  width: 40%;
   height: 50px;
   background-color: rgb(243, 238, 243);
-  border-color: black;
+  border-radius: 2px;
+  border-color: #000000;
 }
 
 #labelform3{
@@ -533,7 +534,6 @@
   width: 40%;
   height: 50px;
   background-color: rgb(243, 238, 243);
-  color: blueviolet;
   border-radius: 2px;
   border-color: #000000;
 }
