@@ -372,7 +372,7 @@
   background-color: rgb(243, 238, 243);
   border-color: black;
 }
-.labelform2{
+#labelform2{
   width: 400px;
   height: 50px;
   background-color: rgb(243, 238, 243);
@@ -384,6 +384,7 @@
   width: 100px;
   background-color: rgb(243, 238, 243);
   color: blueviolet;
+  font-weight: 900;
   border-radius: 2px;
   border-color: #000000;
 }

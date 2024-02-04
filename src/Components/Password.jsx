@@ -13,10 +13,9 @@ const Password = () => {
       <label htmlFor="password" className='labelfor'>Password</label>
       <br />
       <input
-        className='labelform2'
+        id='labelform2'
         type={passwordVisible ? 'text' : 'password'}
         placeholder='  Enter Password'
-        id="password"
         name="password"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
