@@ -231,13 +231,13 @@
 .line{
   color: red;
   width: 900px;
-  margin-left: 400px;
+  margin-left: 250px;
   border: solid 1px;
 }
 .line1{
   color: blueviolet;
   width: 450px;
-  margin-left: 600px;
+  margin-left: 450px;
   border: solid 1px;
 }
 .line9{
@@ -250,7 +250,7 @@
 .line2{
   color: lightblue;
   width: 225px;
-  margin-left: 720px;
+  margin-left: 570px;
   border: solid 1px;
 }
 .txt45{
