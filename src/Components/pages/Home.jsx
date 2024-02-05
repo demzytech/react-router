@@ -29,9 +29,9 @@ function Home() {
                   <h6>available on ps4 ps5 and mobile-phone</h6>
                   <br />
                   <h2>Free</h2>
-                  <button className="Btn3">Select Games</button>
+                  <a href="./blog"><button className="Btn3">View Post</button></a>
                   <br/>
-                  <button className="Btn4"> Chose Version</button>
+                  <a href="./post"><button className="Btn4"> Create Blogs</button></a>
                   <br />
                   <br />
                   <br />

@@ -19,7 +19,7 @@ function Dark() {
           <p>
             <s className='strike'>BORING</s><b> Action, Tactical shooter</b> 
           </p>
-          <button className="Btn3">Install <i className="fa-solid fa-download"></i></button>
+          <a href="https://playvalorant.com/en-gb/"><button className="Btn3">Install <i className="fa-solid fa-download"></i></button></a>
             </div>
           </div>
         </Carousel.Caption>
@@ -40,7 +40,7 @@ function Dark() {
           <p>
             <s className='strike'>BORING</s><b> Action, Tactical shooter</b> 
           </p>
-          <button className="Btn3">Install <i className="fa-solid fa-download"></i></button>
+          <a href="https://www.ea.com/games/apex-legends"><button className="Btn3">Install <i className="fa-solid fa-download"></i></button></a>
             </div>
           </div>
         </Carousel.Caption>
@@ -61,7 +61,7 @@ function Dark() {
           <p>
             <s className='strike'>BORING</s><b> Action, Tactical shooter</b> 
           </p>
-          <button className="Btn3">Install <i className="fa-solid fa-download"></i></button>
+          <a href="https://www.callofduty.com/mobile"><button className="Btn3">Install <i className="fa-solid fa-download"></i></button></a>
             </div>
           </div>
         </Carousel.Caption>
